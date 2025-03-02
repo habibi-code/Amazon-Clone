@@ -4,9 +4,11 @@ import logoImg from '../../assets/logo.png';
 import { IoLocationOutline } from "react-icons/io5";
 import { FaSearch } from "react-icons/fa";
 import { BiCart } from "react-icons/bi";
+import LowerHeader from './LowerHeader';
 
 const Header = () => {
   return (
+    <>
     <header className={classes.Header}>
       {/* Logo */}
       <div className={classes.header__logo}>
@@ -85,7 +87,10 @@ const Header = () => {
         <BiCart className={classes.header__cartIcon} />
         <span className={classes.header__cartCount}>0</span>
       </div>
+      
     </header>
+    <LowerHeader />
+    </>
   );
 };
 
