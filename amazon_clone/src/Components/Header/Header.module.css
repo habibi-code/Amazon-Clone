@@ -89,13 +89,12 @@
   }
 .header__searchInput::placeholder{
   font-weight: 600;
-  
 }
   .header__bg {
     position: absolute;
     width: 40px;
     height: 38px;
-    right: 390px;
+    right: 394px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     background: #f3a847;

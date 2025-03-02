@@ -5,7 +5,6 @@ import { IoLocationOutline } from "react-icons/io5";
 import { FaSearch } from "react-icons/fa";
 import { BiCart } from "react-icons/bi";
 
-
 const Header = () => {
   return (
     <header className={classes.Header}>
